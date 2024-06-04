@@ -1,38 +1,191 @@
-.App {
-  text-align: center;
+.App{
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-logo{
   display: flex;
-  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  margin-top: 8%;
+}
+
+.logo-img{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  margin-top: 30%;
+}
+
+.form {
+  border: 1px solid black;
+  width: 25%;
+  height: 100%;
+  margin: auto;
+  padding: 0 15px;
+  margin-top: 20px;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-align: center;
+  align-items: center;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message, 
+.signin {
+  font-size: 14.5px;
+  color: black
 }
+
+.message{
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+.signin {
+  text-align: center;
+  margin-top: -5px;
+  color: #00bfff;
+}
+
+.signin2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #00bfff;
+}
+
+.Skip {
+  text-align: center;
+  margin-top: 30px;
+  color: #00bfff;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.signin a {
+  color: #00bfff;
+}
+
+.form .input{
+  color: #000;
+  width: 80%;
+  margin: 5px;
+  padding: 10px 05px 05px 10px;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 4px;
+}
+
+.form {
+  color: rgba(20, 19, 19, 0.5);
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+  color: rgba(59, 53, 53, 0.397);
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.input {
+  font-size: medium;
+}
+
+.boutton{
+  width: 80%;
+}
+
+
+
+.submit1 {
+  display: block;
+  width: 80%;
+  margin: auto ;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: #00bfff;
+}
+.submit2 {
+  display: block;
+  width: 80%;
+  margin: auto ;
+  margin-top: 20px;
+  border: 1px solid black;
+  outline: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: #222;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: none;
+}
+
+.content__or-text {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  column-gap: 10px;
+  margin-top: 0px;
+}
+
+.content__or-text span:nth-child(3),
+.content__or-text span:nth-child(1) {
+  display: block;
+  margin: 14px;
+  width: 80%;
+  height: 2px;
+  background-color: rgb(219, 219, 219);
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+  }
+
+}
+@media screen and (max-width: 556px) {
+  .form {
+    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0 15px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: #fff;
+    border-radius: 15px;
+  }
+
+}
+
+
+
