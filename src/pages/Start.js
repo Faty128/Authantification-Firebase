@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/img/discord-logo.png";
 import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Start = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -13,7 +13,7 @@ const Login = () => {
   return (
     <form className="form" onSubmit={handleSubmit}>
       <img src={logo} alt="discord-logo" className="logo-img" />
-      <p className="title">Even</p>
+      <p className="title text-white f-bold">Even</p>
       <p className="message">
         Discover Upcoming events <br /> near you
       </p>
@@ -32,4 +32,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Start;
